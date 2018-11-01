@@ -1,0 +1,57 @@
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.main {
+  width: 70%;
+  margin: 2em auto;
+  padding: .1em;
+  background-color: #ccc;
+  border-radius: 3px;
+}
+
+.main h2 {
+  text-align: center;
+}
+
+.favorite-movies {
+  width: 92%;
+  margin: 1.5em auto;
+  padding: 2em;
+  background-color: #aaa;
+}
+
+.movie-li {
+  list-style: none;
+}
+
+.movie-title {
+  margin-bottom: 5px;
+}
+
+.not-fav {
+  margin: 0 0 0 2.5em;
+  font-style: italic;
+}
