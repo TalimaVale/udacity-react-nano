@@ -23,7 +23,7 @@ yarn-error.log*
 # ###
 
 # Local README
-README.md
+README_old.md
 
 # Logs
 logs
