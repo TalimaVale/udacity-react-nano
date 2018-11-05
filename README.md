@@ -2,7 +2,7 @@
 
 ### Project Objectives
 
-1) Display a list of movies
+1) Display a list of movies.
 
 2) For each movie in the list:
     * If the movie has been favorited, then display a list of all users who favorited.
