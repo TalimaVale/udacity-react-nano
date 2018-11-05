@@ -1,6 +1,6 @@
 # Passing Data 2
 
-## Project Objectives
+### Project Objectives
 
 1) Display a list of movies
 
