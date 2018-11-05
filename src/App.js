@@ -102,18 +102,18 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.usersByFavoriteMovie = {};
-    
+
     profiles.forEach(profile => {
       const favMovie = profile.favoriteMovieID;
-      
+
       if (this.usersByFavoriteMovie[favMovie]) {
-      	this.usersByFavoriteMovie[favMovie].push(profile.userID);
+        this.usersByFavoriteMovie[favMovie].push(profile.userID);
       } else {
         this.usersByFavoriteMovie[favMovie] = [profile.userID];
       }
     });
   }
-  
+
   render() {
     return (
       <div className="App">
@@ -121,14 +121,14 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">ReactND - Coding Practice</h1>
         </header>
-		<div className="main">
+        <div className="main">
           <h2>How Popular is Your Favorite Movie?</h2>
-          <FavoriteMovies 
+          <FavoriteMovies
             movies={movies}
             users={users}
             usersByFavoriteMovie={this.usersByFavoriteMovie}
           />
-		</div>
+        </div>
       </div>
     );
   }
