@@ -95,7 +95,7 @@ const movies = {
   },
   3: {
     id: 3,
-    name: 'Pirates of the Caribbean',
+    name: 'Miracle',
   },
   4: {
     id: 4,
