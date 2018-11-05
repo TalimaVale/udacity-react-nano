@@ -27,3 +27,47 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.main {
+  width: 70%;
+  margin: 0 auto;
+  padding-bottom: .1em;
+
+  background-color: #777;
+}
+
+.main h1 {
+  margin-bottom: 0;
+  padding: .5em 0 0 0;
+  text-align: center;
+}
+
+.movie-cards {
+  width: 94%;
+  margin: 0 auto;
+  margin-bottom: 1.2em;
+  padding-bottom: 1.2em;
+  background-color: #ccc;
+}
+
+.movie-card {
+  list-style: none;
+}
+
+.movie-card h2 {
+  margin-bottom: .2em;
+  padding: .5em 0 0 0;
+}
+
+.movie-card h3 {
+  margin: .2em 0 .3em 0;
+}
+
+.user-fav p {
+  margin: .1em;
+}
+
+.no-fav {
+  margin: .1em 0 0 2.5em;
+  font-style: italic;
+}

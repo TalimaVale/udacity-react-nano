@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import MovieCardsList from './MovieCardsList';
@@ -92,19 +92,17 @@ const movies = {
   },
 };
 
-class App extends Component {
-  render() {
-    return (
-      <div>
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">ReactND - Coding Practice</h1>
-        </header>
-        <h1>How Popular is Your Favorite Movie?</h1>
-        <MovieCardsList profiles={profiles} movies={movies} users={users} />
-      </div>
-    );
-  }
-}
+const App = () => (
+  <div>
+    <header className="App-header">
+      <img src={logo} className="App-logo" alt="logo" />
+      <h1 className="App-title">ReactND - Coding Practice</h1>
+    </header>
+    <div className="main">
+      <h1>How Popular is Your Favorite Movie?</h1>
+      <MovieCardsList profiles={profiles} movies={movies} users={users} />
+    </div>
+  </div>
+);
 
 export default App;
