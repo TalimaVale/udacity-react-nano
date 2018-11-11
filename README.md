@@ -10,4 +10,4 @@ Displays a list of movies, as well as all of the users who have favorited each m
 A movie list application which uses stateless functional components
 
 4) **Managing State** [*branch*](https://github.com/teamTALIMA/udacity-react-nano/tree/managing-state)  
-A mental math game which requires the user to determine the correctness of an equation
+A mental math game which requires the player to determine the correctness of an equation
