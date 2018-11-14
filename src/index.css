@@ -1,7 +1,16 @@
+html {
+  height: 100%;
+}
+
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
   font-family: sans-serif;
+}
+
+#root {
+  height: 100%;
 }
 
 h1 {
@@ -9,8 +18,10 @@ h1 {
 }
 
 .container {
-  margin: 5% 2%;
+  margin: 5% 2% 0 2%;
+  padding: 2% 2% 100% 2%;
   text-align: left;
+  background-color: #101010;
 }
 
 input {
@@ -33,5 +44,15 @@ input {
 }
 
 .echo {
-  font-size: 1.4em;
+  padding-top: 3em;
+  font-size: 1.5em;
+  text-align: center;
+  color: #eee;
+}
+
+.my-voice {
+  margin: .1em;
+  font-size: 3em;
+  text-align: center;
+  color: #08a8f1;
 }
