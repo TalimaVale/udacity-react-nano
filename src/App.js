@@ -8,12 +8,12 @@ This exercise will help you practice many of your newly aquired React skills.
 The instructions are included in the `instructions.md` file.
 */
 
-const users = [{ username: 'Amy' }, { username: 'John' }];
+const users = [{ username: 'Ninja' }, { username: 'Spy' }];
 
 const messages = [
-  { username: 'Amy', text: 'Hi, Jon!' },
-  { username: 'Amy', text: 'How are you?' },
-  { username: 'John', text: 'Hi, Amy! Good, you?' },
+  { username: 'Ninja', text: 'Hi, Spy!' },
+  { username: 'Ninja', text: 'How are you?' },
+  { username: 'Spy', text: 'Hi, Ninja! Good, you?' },
 ];
 
 class App extends Component {
