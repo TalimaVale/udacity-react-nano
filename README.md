@@ -18,7 +18,7 @@ An input field which enables users to write to their page
 6) **Controlled Components 2** [*branch*](https://github.com/teamTALIMA/udacity-react-nano/tree/controlled-components-2)  
 A wishlist which enables the user to add and delete entries
 
-7) **All Together 1** [*branch*](https://github.com/teamTALIMA/udacity-react-nano/tree/all-together) ⭐  
+7) **All Together 1** [*branch*](https://github.com/teamTALIMA/udacity-react-nano/tree/all-together-1) ⭐  
 A sample community sign up page #teamTALIMA #awesomeness
 
 7) **All Together 2** [*branch*](https://github.com/teamTALIMA/udacity-react-nano/tree/all-together-2) ⭐  
