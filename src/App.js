@@ -1,6 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import TeamTalimaTeammates from './TeamTalimaTeammates';
 
 /*
 This exercise will help you put together and practice all of the concepts you've
@@ -10,17 +11,21 @@ React and prepare you for your first project.
 The instructions for this project are located in the `instructions.md` file.
 */
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">ReactND - Coding Practice</h1>
-        </header>
-      </div>
-    );
-  }
+const App = () => {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <div className='app-header-content'>
+          <div className='left-col'>
+            <img src={logo} className="App-logo" alt="logo" /><p className='react-proj'>ReactND - Coding Practice</p>
+            <h1 className="App-title">teamTALIMA</h1>
+          </div>
+        </div>
+      </header>
+
+      <TeamTalimaTeammates/>
+    </div>
+  );
 }
 
 export default App;

@@ -1,21 +1,22 @@
 .App {
+  height: 100%;
   text-align: center;
 }
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+  height: 40px;
 }
 
 .App-header {
   background-color: #222;
-  height: 150px;
-  padding: 20px;
+  height: 200px;
   color: white;
 }
 
 .App-title {
-  font-size: 1.5em;
+  margin: .2em 0;
+  font-size: 5em;
 }
 
 .App-intro {
@@ -29,4 +30,112 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.app-header-content {
+  height: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.left-col {
+  box-sizing: border-box;
+  height: 200px;
+  width: 66%;
+  padding: 20px 20px 0 20px;
+  border-right: 12px double #08a8f1;
+}
+
+.react-proj {
+  display: inline-block;
+  margin: 0;
+  vertical-align: middle;
+  line-height: 0;
+  height: 30px;
+}
+
+.teamtalima-teammates {
+  height: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.add-teammate {
+  float: left;
+  box-sizing: border-box;
+  height: 100%;
+  width: 66%;
+  padding: 20px 20px 0 20px;
+  border-right: 12px double #08a8f1;
+}
+
+.add-teammate h2 {
+  padding-top: 30px;
+}
+
+.form-add-teammate {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.form-error {
+  height: 18px;
+  font-weight: bold;
+  color: red;
+}
+
+.input-first {
+  width: 35%;
+}
+
+.input-last {
+  width: 35%;
+}
+
+.input-username {
+  width: 82%;
+}
+
+.form-submit {
+  display: block;
+  margin: 0 auto;
+}
+
+.teammates-board {
+  overflow: auto;
+  padding: 0 20px;
+  text-align: left;
+}
+
+.toggle-games {
+  display: block;
+  margin: .5em auto;
+  padding: 0.5em;
+  font-size: .8em;
+}
+
+.board-title {
+  padding-top: 15px;
+  margin-bottom: .2em;
+}
+
+.teammate-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.teammate {
+  margin-bottom: .2em;
+}
+
+.teammate span {
+  font-weight: bold;
+}
+
+.games-played {
+  padding-left: 20px;
+  margin: .2em 0;
+  font-style: italic;
 }

@@ -1,8 +1,14 @@
+html {
+  height: 100%;
+}
+
 body {
+  height: 100%;
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  color: #3692bc;
+  color: #111;
+  background-color: #ddd;
 }
 h1 {
   font-size: 2em;
@@ -78,4 +84,8 @@ button:disabled {
 
 .error {
   color: red;
+}
+
+#root {
+  height: 100%;
 }
